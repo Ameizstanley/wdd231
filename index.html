@@ -3,9 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd231</title>
+    <meta name="description" content="Course home page for WDD 231 - Web Frontend Development">
+    <meta name="author" content="Emeribe Stanley Ameiz Chibuike">
+    <title>WDD 231 - Web Frontend Development-EMERIBE STANLEY CHIBUIKE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&family=Lato:wght@700&display=swap">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css" media="(min-width: 768px)">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+    
 </head>
 <body>
-    <h1>AMEIZ STANLEY wdd231 program</h1>
+    <header>
+        <img src="images/ameizstanley.webp" alt="Student Profile Picture">
+        <span>EMERIBE STANLEY Chibuike</span>
+    </header>
+
+    <nav>
+        <button id="menuButton" aria-label="Toggle navigation">☰</button>
+        <ul id="navList">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="https://github.com/yourusername">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/yourprofile">LinkedIn</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Web Frontend Development</h1>
+        
+        
+
+        <div class="card-village-container">
+            <section class="card">
+                <h2>Course Progress</h2>
+                <ul>
+                    <li>web fundamentals</li>
+                    <li>frontend development</li>
+                    <li>programming with classes</li>
+                </ul>
+                <div id="progressBar"></div>
+            </section>
+        
+            <section class="village">
+                <h2>Orodo, mbaitolu</h2>
+                <img id="tree" src="images/orodotreees.jpg" alt="my village tree">
+                <p>Orodo special tree</p>
+            </section>
+        </div>
+        
+
+        <section class="card">
+            <h2>Certificate Courses</h2>
+            <div class="filter-buttons">
+                <button class="active" data-filter="all">All Courses</button>
+                <button data-filter="WDD">WDD Courses</button>
+                <button data-filter="CSE">CSE Courses</button>
+            </div>
+            <div id="courseContainer" class="course-grid"></div>
+        </section>
+
+        <section class="card">
+            <h2>Total Credits</h2>
+            <p id="totalCredits"></p>       
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Emeribe Stanley Ameiz - Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>

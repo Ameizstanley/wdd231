@@ -1,0 +1,33 @@
+/* Desktop Styles */
+@media (min-width: 768px) {
+    #menuButton {
+        display: none;
+    }
+
+    #navList {
+        display: flex;
+        justify-content: flex-end;
+        gap: 2rem;
+    }
+
+    .course-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .filter-buttons {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .course-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Stack sections on smaller screens */
+@media (max-width: 768px) {
+    .card-village-container {
+        flex-direction: column;
+    }
+}
