@@ -1,0 +1,24 @@
+{
+    "family_name":"emeribe stanley ",
+    "moved_in_date":"1-4-2025",
+    "number_of_records":"8",
+    "visited_by_bishopric":"5",
+    "individual_family_members": [{"name": "john",
+    "gender": "male",
+    "birthdate": "13-5-2003"},
+
+    {"name": "blessing",
+     "gender": "female",
+     "birthdate": "6-8-1990" },
+
+    {"name": "goodluck",
+     "gender":"male",
+     "birthdate": "2-8-2003"},
+     
+    {"name": "destiny",
+     "gender": "female",
+     "birthdate": "9-7-1999"
+   }
+ ]
+}
+

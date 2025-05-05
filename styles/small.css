@@ -13,19 +13,21 @@ header {
     color: white;
     padding: 1rem;
     display: flex;
+    justify-content: center;
     align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
 }
 
 header img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
+    width: 100px;
+    height: 100px;
     margin-right: 1rem;
 }
 
 nav {
-    background: #34495e;
-    padding: 0.5rem;
+    background: black;
 }
 
 #navList {
@@ -51,50 +53,64 @@ nav {
     background: #3b536d;
 }
 
+h1{
+    padding-left: 30px;
+    color: #3b536d;
+}
 
+h2{
+    background-color: #3b536d;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
 
-
-
-
-
-
-.card-village-container {
+.card-container{
     display: flex;
-    gap: 1rem; /* Space between sections */
-    align-items: stretch; /* Ensures both sections have equal height */
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
-.card-village-container .card,
-.card-village-container .village {
-    flex: 1; /* Equal width */
-    min-width: 300px; /* Prevents sections from shrinking too much */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Keeps content properly spaced */
-}
-
-.village {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align content to the left */
-    text-align: left; /* Ensure text aligns left as well */
-}
-
-.village img {
-    max-width: 100%; /* Prevents overflow */
-    height: auto; /* Maintains aspect ratio */
-    object-fit: contain; /* Prevents distortion */
-    align-self: flex-start; /* Aligns the image to the left */
-}
-
-.card {
-    background: white;
+.work-card{
+    width: 900px;
+    height: 400px;
+    border: 10px solid;
+    margin-left: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    margin: 1rem;
-    padding: 1.5rem;
-    grid-column: 2; 
-    grid-row: 1 / span 2; 
+    border-style:initial;
+    box-shadow:8px 8px 8px 8px rgba(10, 0, 0, 0.1) ;
+}
+
+.village-card{
+    width: 540px;
+    height: 400px;
+    border: 3px solid;
+    margin-right: 30px;
+    border-radius: 8px;
+    border-style:initial;
+    box-shadow:8px 8px 8px 8px rgba(10, 0, 0, 0.1) ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.village-card img {
+    height: 400px;
+    width: 400px;
+    align-self: center;
+    object-fit: contain;
+}
+
+.card{
+    margin: 20px;
+    text-align: center;
 }
 
 
@@ -103,7 +119,7 @@ nav {
     gap: 1rem;
 }
 
-.course-card {
+.course-section {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1rem;
@@ -131,7 +147,7 @@ button {
 }
 
 button.active {
-    background: #1e6db9;
+    background-color: black;
 }
 
 footer {
@@ -157,5 +173,5 @@ footer {
     height: auto; /* Maintain aspect ratio */
     border-radius: 5%; /* Ensure smooth edges */
     margin-right: 1rem; /* Add spacing between image and text */
-    float: left; /* Ensure image stays aligned to the left */
+    float: left; 
 }
