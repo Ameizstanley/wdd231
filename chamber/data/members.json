@@ -1,0 +1,130 @@
+[
+        {
+            "name":"Ameiz international bookshop",
+            "address":{
+                "street": "Kulturkaufhaus Dussmann",
+                "city": "Berlin",
+                "state": "Berlin",
+                "country": "Germany",
+                "postalCode": 10115
+            },
+            "phoneNumber": 2348050582552,
+            "websiteUrl": "https://www.kulturkaufhaus.de/",
+            "image": "https://www.awellreadwanderer.com/wp-content/uploads/2023/09/saint-george-english-bookstore-berlin-2-768x432.jpg",
+            "membershipLevel": 3,
+            "membershipStartDate": "2023-09-01",
+            "employee": 40,
+            "description": "Ameiz international bookshop is a renowned bookstore located in Berlin, Germany. It offers a wide range of books in various genres, catering to the diverse literary tastes of its customers. The store is known for its cozy atmosphere and knowledgeable staff, making it a popular destination for book lovers. In addition to books, Ameiz also hosts events and workshops, fostering a sense of community among readers and writers alike."
+        },
+    
+        {
+            "name": "saint goerge software company",
+            "address":{
+                "street": "1 item street",
+                "city": "owerri",
+                "state": "imo state",
+                "country": "Nigeria",
+                "postalCode": 23401
+            },
+            "phoneNumber": 2347037848554,
+            "websiteUrl": "https://www.lusha.com/business/648f61cce8dd0afe/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQubvM6vBDrrTp8njQwFcAvDnbKCj3SglMh5A&s",
+            "membershipLevel": 2,
+            "membershipStartDate": "2023-09-01",
+            "employee": 90,
+            "description": "Saint George Software Company is a leading software development firm based in Owerri, Nigeria. The company specializes in creating innovative software solutions for various industries, including finance, healthcare, and education. With a team of skilled developers and designers, Saint George is committed to delivering high-quality products that meet the needs of its clients. The company also emphasizes continuous learning and professional development for its employees, ensuring they stay updated with the latest technologies and trends in the software industry."
+        },
+    
+        {
+            "name": "lordson IT consulting company",
+            "address":{
+                "street": "alley street",
+                "city": "london",
+                "state": "England",
+                "country": "United Kingdom",
+                "postalCode": 59084
+            },
+            "phoneNumber": 5874049873,
+            "websiteUrl": "https://www.ironforge.co/?utm_source=clutch.co&utm_medium=referral&utm_campaign=featured-listing-it-service",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgIZ4bccAGe4RP723xt7sNMCBaVYZd13ANCw&s",
+            "membershipLevel": 1,
+            "membershipStartDate": "2023-09-01",
+            "employee": 50,
+            "description": "Lordson IT Consulting Company is a prominent IT consulting firm located in London, England. The company provides a wide range of IT services, including network security, cloud computing, and software development. With a team of experienced consultants, Lordson helps businesses optimize their IT infrastructure and improve operational efficiency. The company is known for its customer-centric approach and commitment to delivering tailored solutions that meet the unique needs of each client."
+    
+        },
+    
+        {
+            "name": "mayback marketing agency",
+            "address":{
+                "street": "2nd avenue",
+                "city": "new york",
+                "state": "new york",
+                "country": "United States",
+                "postalCode": 10001
+            },
+            "phoneNumber": 1234567890,
+            "websiteUrl": "https://www.zizadigital.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsINXmcT5bP9YvrYMq3WWO3Ly0TC-7Lez3jg&s",
+            "membershipLevel": 3,
+            "membershipStartDate": "2023-09-01",
+            "employee": 30,
+            "description": "Mayback Marketing Agency is a dynamic marketing firm based in New York, USA. The agency specializes in digital marketing, social media management, and brand development. With a team of creative professionals, Mayback helps businesses enhance their online presence and engage with their target audience effectively. The agency is known for its innovative strategies and data-driven approach, ensuring that clients achieve their marketing goals and drive growth."
+    
+        },
+    
+        {
+            "name": "safeway logistics company",
+            "address": {
+                "street": "3rd street",
+                "city": "los angeles",
+                "state": "california",
+                "country": "United States",
+                "postalCode": 90001
+            },
+            "phoneNumber": 9876543210,
+            "websiteUrl": "https://giglogistics.com/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcaClq6jsJAEAiJ5XjyW-m3usK73NdXX29Jw&s",
+            "membershipLevel": 2,
+            "membershipStartDate": "2023-09-01",
+            "employee": 70,
+            "description": "Safeway Logistics Company is a leading logistics and supply chain management firm based in Los Angeles, California. The company specializes in freight transportation, warehousing, and distribution services. With a focus on efficiency and reliability, Safeway helps businesses streamline their supply chain operations and reduce costs. The company is known for its advanced technology solutions and commitment to customer satisfaction, ensuring timely delivery and exceptional service."
+        },
+    
+        {
+            "name": "Auto Way car rental",
+            "address": {
+                "street": "4th avenue",
+                "city": "chicago",
+                "state": "illinois",
+                "country": "United States",
+                "postalCode": 60601
+            },
+            "phoneNumber": 5551234567,
+            "websiteUrl": "https://readycars.ng/",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYuMEdMONKx-FacJkDZ83SOoRrWdrfN6vnHg&s",
+            "membershipLevel": 1,
+            "membershipStartDate": "2023-09-01",
+            "employee": 20,
+            "description": "Auto Way Car Rental is a premier car rental service located in Chicago, Illinois. The company offers a wide range of vehicles for rent, including sedans, SUVs, and luxury cars. With a focus on customer convenience and satisfaction, Auto Way provides flexible rental options and competitive pricing. The company is known for its well-maintained fleet and exceptional customer service, ensuring that clients have a seamless and enjoyable rental experience."
+    
+        },
+    
+        {
+            "name": "Green Leaf Organic Farm",
+            "address": {
+                "street": "5th street",
+                "city": "austin",
+                "state": "texas",
+                "country": "United States",
+                "postalCode": 73301
+            },
+            "phoneNumber": 5125551234,
+            "websiteUrl": "https://shopneolife.com/tnsaroundyou/shop/product/2741",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8i-buIyd5Te0pZ2XWu4Pt3-r7t2Vv-5QB6Q&s",
+            "membershipLevel": 2,
+            "membershipStartDate": "2023-09-01",
+            "employee": 15,
+            "description": "Green Leaf Organic Farm is a sustainable farming operation located in Austin, Texas. The farm specializes in organic produce, herbs, and flowers, promoting environmentally friendly practices and healthy eating. With a commitment to quality and sustainability, Green Leaf provides fresh, locally grown products to the community. The farm also offers educational programs and workshops, encouraging people to learn about organic farming and healthy living."
+        }
+]

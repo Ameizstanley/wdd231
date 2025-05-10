@@ -1,0 +1,39 @@
+@media(max-width: 768px){
+    .header-nav ul{
+        display: none;
+    }
+
+
+    header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .round-container{
+        align-self: center;
+        margin-left: -200px;
+    }
+
+    .footer-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .member-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+    
+    }
+
+    .member-card img{
+        width: 300px;
+        object-fit: contain;
+    }
+
+    
+
+}
