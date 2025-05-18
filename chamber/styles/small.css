@@ -28,6 +28,10 @@ header {
     align-items: center;
 }
 
+.header-img img{
+    border-radius: 20px;
+}
+
 .header-img strong {
     font-size: xx-large;
     font-weight: 100;
