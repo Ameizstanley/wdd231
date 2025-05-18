@@ -34,7 +34,7 @@ function getMembershipLevel(level) {
 
       membersContainer.innerHTML = '';
 
-      members.forEach(member => {
+      members.forEach((member) => {
         const card = document.createElement('div');
         card.classList.add('member-card');
         
@@ -48,7 +48,7 @@ function getMembershipLevel(level) {
 
         card.innerHTML = `
           <div class="member-image">
-            <img src="${member.image}" alt="${member.name} logo" loading="lazy" height="300px" width="500px" object-fit="contain">
+            <img src="${member.image}" alt="${member.name} logo" loading="lazy" height="300px" width="400px" object-fit="contain">
           </div>
           <div class="member-details">
             <h3>${member.name}</h3>
@@ -86,3 +86,4 @@ function getMembershipLevel(level) {
 
   
   document.addEventListener('DOMContentLoaded', loadMembers);
+  

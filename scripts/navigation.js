@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Close menu when clicking outside
-    document.addEventListener('click', (e) => {
+    document.addEventListener('click', () => {
         if (!e.target.closest('nav')) {
             navList.classList.remove('active');
         }
