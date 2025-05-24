@@ -1,7 +1,8 @@
 .hero-img{
     width: 90%;
     margin-left: 80px;
-    margin-left: 80px;
+    margin-left: 70px;
+    object-fit: contain;
 }
 
 h1{
@@ -94,9 +95,6 @@ h5{
     padding: 10px;
 }
 
-.forcast-card p{
-    /* height: 50px; */
-}
 
 
 @media(max-width: 868px){
