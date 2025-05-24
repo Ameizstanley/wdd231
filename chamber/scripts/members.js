@@ -46,6 +46,7 @@ function getMembershipLevel(level) {
           card.classList.add('silver-member');
         }
 
+      
         card.innerHTML = `
           <div class="member-image">
             <img src="${member.image}" alt="${member.name} logo" loading="lazy" height="300px" width="400px" object-fit="contain">
@@ -67,13 +68,15 @@ function getMembershipLevel(level) {
             <p class="member-description">${member.description}</p>
             <div class="member-stats">
               <p>startdate: ${member.membershipStartDate}</p>
-              <p>Employees: ${member.employee}</p>
+            <p>Employees: ${member.employee}</p>
             </div>
           </div>
         `;
 
         membersContainer.appendChild(card);
       });
+
+
     } catch (error) {
       console.error('Error loading members:', error);
       const membersContainer = document.querySelector('.member-container');
@@ -86,4 +89,11 @@ function getMembershipLevel(level) {
 
   
   document.addEventListener('DOMContentLoaded', loadMembers);
+
+
+
+
+
+
+  
   

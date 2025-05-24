@@ -3,22 +3,28 @@
 <head>     
     <meta charset="UTF-8">     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-    <meta name="description" content="Chamber Directory page for WDD 231 - Web Frontend Development">     
+    <meta name="description" content="This home page contain some attention grabbing information about Ameiz Chamber of Commerce along with community information, weather, calls to action, and business spotlights.">     
     <meta name="author" content="Emeribe Stanley Ameiz Chibuike">      
     <link rel="icon" href="images/favicon(1).ico">
-    <title>Ameiz Chamber Directory page</title>      
+    <title>Ameiz Chamber Of Commerce Home page</title> 
+
     <meta property="og:title" content="Chamber Directory page">     
     <meta property="og:description" content="Chamber Directory page for WDD 231 - Web Frontend Development">     
     <meta property="og:image" content="http://Ameizstanley.github.io/wdd231/chamber/images/og-facebook.jpeg">     
     <meta property="og:locale" content="en_US">      
     <meta property="og:url" content="http://Ameizstanley.github.io/wdd231/chamber/directory.html">
+
     <link rel="stylesheet" href="styles/normalize.css">     
     <link rel="stylesheet" href="styles/small.css">     
-    <link rel="stylesheet" href="styles/larger.css">      
-    <script src="scripts/members.js"></script>
+    <link rel="stylesheet" href="styles/larger.css"> 
+    <link rel="stylesheet" href="styles/index.css"> 
+
     <script src="scripts/navigation.js" defer></script> 
-    <script src="scripts/menu.js" defer></script>    
+    <!-- <script src="scripts/menu.js" defer></script>     -->
     <script src="scripts/dates.js" defer></script> 
+    <script src="scripts/index.js" defer></script>
+    <script src="scripts/weather2.js" defer></script>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous"> 
 </head> 
 <body>     
@@ -31,9 +37,9 @@
             <nav class="header-nav">             
                 <!-- <button id="menu-button" aria-label="Toggle Menu">&#9776;</button>              -->
                 <ul class="menulink" id="primary-nav">                 
-                    <li><a href="index.html">Home</a></li>                 
+                    <li><a href="home">Home</a></li>                 
                     <li class="current-menu"><a href="discover">Discover</a></li>                 
-                    <li><a href="#">Buisness Directory</a></li>                 
+                    <li><a href="directory.html">Buisness Directory</a></li>                 
                     <li><a href="#">Join</a></li>             
                 </ul>         
             </nav>          
@@ -43,14 +49,28 @@
         </div>      
     </header>     
     <main>
-        <h1>Ameiz Chamber Directory</h1>
-        <div class="layer-menu">
-            <button id="grid">⏹️</button>
-            <button id="list">📄</button>
-        </div>
+        <img class="hero-img" src="https://www.nationaldaycalendar.com/.image/ar_233:100%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:eco%2Cw_1920/MjAxNDY4MzM4ODA1Njc5NzM3/website-feature---support-your-local-chamber-of-commerce--third-wednesday-in-october.webp" alt="Ameiz Chamber of Commerce">
+        <a href="directory.html" class="button">Join Our Chamber</a>
+        <h1>Home</h1>
+        <section class="event-container">
+            <div class="event-card">
+                <h2>Events</h2>
 
-        <section class="member-container">          
-        </section>      
+            </div>
+            <div class="current-card">
+                <h2>Current Weather</h2>
+
+            </div>
+            <div class="forcast-card">
+                <h2>Weather Forcast</h2>
+
+            </div>
+        </section>
+
+        <section class="member-section">
+           
+        </section>
+           
     </main>     
     <footer>         
         <div class="footer-container">             
