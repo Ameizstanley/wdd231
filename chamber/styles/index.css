@@ -64,7 +64,7 @@ h2{
 .member-section{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
+    justify-content: center;
     margin-left: 80px;
     
 }
