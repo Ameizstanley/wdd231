@@ -200,3 +200,9 @@ h3 {
 .list img{
     display: none;
 }
+
+.member-img {        /* or 100% for responsive */
+  aspect-ratio: 3 / 2;  /* or 1 / 1 for square, or remove for natural */
+  object-fit: contain;  /* or cover */      /* Let the browser calculate height */
+  display: block;
+}

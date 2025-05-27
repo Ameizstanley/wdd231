@@ -49,7 +49,7 @@ function getMembershipLevel(level) {
       
         card.innerHTML = `
           <div class="member-image">
-            <img src="${member.image}" alt="${member.name} logo" loading="lazy" height="300px" width="400px" object-fit="contain">
+            <img src="${member.image}" alt="${member.name} logo" loading="lazy" height="300px" width="400px">
           </div>
           <div class="member-details">
             <h3>${member.name}</h3>
