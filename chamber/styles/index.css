@@ -84,9 +84,8 @@ h2{
 }
 
 .current-card p{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: normal;
-    background-color: none;
 }
 
 h5{
@@ -95,7 +94,7 @@ h5{
 }
 
 .member-img {
-  width: 150px;         /* Set the width you want */
+  width: 150px;         
   aspect-ratio: 3 / 2;  /* Maintains a 3:2 aspect ratio */
   object-fit: contain;  /* Ensures the whole image fits without distortion */
   height: auto;         /* Height adjusts automatically */
