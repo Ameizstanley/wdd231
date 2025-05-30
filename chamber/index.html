@@ -1,105 +1,155 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head>     
-    <meta charset="UTF-8">     
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
-    <meta name="description" content="This home page contain some attention grabbing information about Ameiz Chamber of Commerce along with community information, weather, calls to action, and business spotlights.">     
-    <meta name="author" content="Emeribe Stanley Ameiz Chibuike">      
-    <link rel="icon" href="images/favicon(1).ico">
-    <title>Ameiz Chamber Of Commerce Home page</title> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ameiz Chamber of Commerce - Supporting local businesses with community information, weather updates, and business spotlights.">
+    <meta name="author" content="Emeribe Stanley Ameiz Chibuike">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏢</text></svg>">
+    <title>Ameiz Chamber of Commerce - Home</title>
 
-    <meta property="og:title" content="Chamber Directory page">     
-    <meta property="og:description" content="Chamber Directory page for WDD 231 - Web Frontend Development">     
-    <meta property="og:image" content="http://Ameizstanley.github.io/wdd231/chamber/images/og-facebook.jpeg">     
-    <meta property="og:locale" content="en_US">      
-    <meta property="og:url" content="http://Ameizstanley.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="Ameiz Chamber of Commerce">
+    <meta property="og:description" content="Supporting local businesses in Owerri, Imo State, Nigeria">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Ameizstanley.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://Ameizstanley.github.io/wdd231/chamber/images/og-facebook.jpeg">
 
-    <link rel="stylesheet" href="styles/normalize.css">     
-    <link rel="stylesheet" href="styles/small.css">     
-    <link rel="stylesheet" href="styles/larger.css"> 
-    <link rel="stylesheet" href="styles/index.css"> 
 
-    <script src="scripts/navigation.js" defer></script> 
-    <!-- <script src="scripts/menu.js" defer></script>     -->
-    <script src="scripts/dates.js" defer></script> 
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/index.css">
+
     <script src="scripts/index.js" defer></script>
     <script src="scripts/weather2.js" defer></script>
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous"> 
-</head> 
-<body>     
-    <header>         
-        <div class="header-img">             
-            <img src="images/logo4.webp" alt="chamber of commerce logo" width="70" height="70" loading="lazy">             
-            <h4><strong>Ameiz</strong>Chamber of Commerce</h4>         
-        </div>          
-        <div class="nav-container">         
-            <nav class="header-nav">             
-                <!-- <button id="menu-button" aria-label="Toggle Menu">&#9776;</button>              -->
-                <ul class="menulink" id="primary-nav">                 
-                    <li><a href="home">Home</a></li>                 
-                    <li class="current-menu"><a href="discover">Discover</a></li>                 
-                    <li><a href="directory.html">Buisness Directory</a></li>                 
-                    <li><a href="#">Join</a></li>             
-                </ul>         
-            </nav>          
-            <div class="round-container">             
-                <div class="round"></div>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-img">
+                <img src="https://via.placeholder.com/60x60/0056b3/ffffff?text=AC" alt="Ameiz Chamber Logo" loading="lazy">
+                <h1><strong>Ameiz</strong> Chamber of Commerce</h1>
             </div>
-        </div>      
-    </header>     
+            <div class="nav-container">
+                <nav class="header-nav">
+                    <ul>
+                        <li class="current-menu"><a href="#home">Home</a></li>
+                        <li><a href="#discover">Discover</a></li>
+                        <li><a href="#directory">Business Directory</a></li>
+                        <li><a href="#join">Join</a></li>
+                    </ul>
+                </nav>
+                <div class="round" aria-hidden="true"></div>
+            </div>
+        </div>
+    </header>
+
     <main>
-        <img class="hero-img" src="https://www.nationaldaycalendar.com/.image/ar_233:100%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:eco%2Cw_1920/MjAxNDY4MzM4ODA1Njc5NzM3/website-feature---support-your-local-chamber-of-commerce--third-wednesday-in-october.webp" alt="Ameiz Chamber of Commerce" width="1250" height="400" loading="lazy">
-        <a href="directory.html" class="button">Join Our Chamber</a>
-        <h1>Home</h1>
-        <section class="event-container">
-            <div class="event-card">
-                <h2>Events</h2>
-
-            </div>
-            <div class="current-card">
-                <h2>Current Weather</h2>
-
-            </div>
-            <div class="forcast-card">
-                <h2>Weather Forcast</h2>
-
+        <section class="hero-section">
+            <img class="hero-img" 
+                 src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&h=400&fit=crop&crop=center" 
+                 alt="Modern business district representing chamber of commerce activities" 
+                 loading="lazy">
+            <div class="hero-content">
+                <h2>Welcome to Ameiz Chamber</h2>
+                <p>Supporting local businesses and fostering economic growth in our community.</p>
+                <a href="#join" class="button">Join Our Chamber</a>
             </div>
         </section>
+
+        <div class="content-grid">
+            <div class="event-card">
+                <h2><i class="bi bi-calendar-event"></i> Upcoming Events</h2>
+                <div class="card-content">
+                    <ul class="events-list">
+                        <li>
+                            <span>Monthly Business Mixer</span>
+                            <span class="event-date">Jun 15</span>
+                        </li>
+                        <li>
+                            <span>Entrepreneurship Workshop</span>
+                            <span class="event-date">Jun 22</span>
+                        </li>
+                        <li>
+                            <span>Networking Breakfast</span>
+                            <span class="event-date">Jul 5</span>
+                        </li>
+                        <li>
+                            <span>Business Awards Ceremony</span>
+                            <span class="event-date">Jul 20</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="current-card">
+                <h2><i class="bi bi-thermometer-sun"></i> Current Weather</h2>
+                <div class="current-content">
+
+                </div>
+                
+
+
+            </div>
+
+            <div class="forcast-card">
+                <h2><i class="bi bi-cloud-sun"></i> 3-Day Forecast</h2>
+                <div class="forecast-content">
+
+                </div>
+              
+
+            </div>
+        </div>
 
         <section class="member-section">
-           
+            <h2 class="section-title">Featured Silver Members</h2>
+            <div class="member-grid" id="member-container">
+                <div class="loading">Loading members...</div>
+            </div>
         </section>
-           
-    </main>     
-    <footer>         
-        <div class="footer-container">             
-            <div>                 
-                <h5>Ameiz Chamber of Commerce</h5>                 
-                <p>27 Old okigwe road</p>                 
-                <p>owerri,imo state</p>                 
-                <p>south-east, Nigeria</p>                 
-                <p>stanleyameiz@gmail.com</p>                 
-                <p>+2348050582552</p>             
-            </div>              
-            <div>                 
-                <h5>Follow Us</h5>                  
-                <ul class="socials">                     
-                    <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a></li>
-                </ul>             
-            </div>              
-            <div>                 
-                <p>WDD class project</p>                 
-                <p>Emeribe stanley Ameiz</p>                 
-                <p>©20xx Ameiz Chamber of Commerce</p>                 
-                <p id="copyright-year"></p>                 
-                <p id="lastModified"></p>             
-            </div>           
-        </div>     
-    </footer>      
-</body> 
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h5>Contact Information</h5>
+                <p>27 Old Okigwe Road<br>
+                   Owerri, Imo State<br>
+                   South-East, Nigeria</p>
+                <p><i class="bi bi-envelope"></i> stanleyameiz@gmail.com</p>
+                <p><i class="bi bi-telephone"></i> +234 805 058 2552</p>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Follow Us</h5>
+                <ul class="socials">
+                    <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>About</h5>
+                <p>WDD Class Project<br>
+                   Emeribe Stanley Ameiz</p>
+                <p>&copy;<span id="copyright-year">2024</span> Ameiz Chamber of Commerce</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <!-- <script src="scripts/data.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/members.js"></script>
+    <script src="scripts/main.js"></script> -->
+</body>
 </html>

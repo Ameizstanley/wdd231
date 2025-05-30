@@ -36,7 +36,7 @@ function displayWeather(data){
     captionDesc.innerHTML = `weather description: ${data.weather[0].description}`;
 }
 
-const weatherCard = document.querySelector('.current-card');
+const weatherCard = document.querySelector('.current-content');
 weatherCard.appendChild(town);
 weatherCard.appendChild(currentTemp);
 weatherCard.appendChild(weatherIcon);
@@ -66,7 +66,7 @@ async function forcastFetch() {
 }
 
 function displayForcast(forcast){
-    const forcastSection = document.querySelector('.forcast-card');
+    const forcastSection = document.querySelector('.forecast-content');
     const forcastSet = document.createElement('div')
     forcastSet.innerHTML = `<p>Today: ${forcast.list[1].main.temp}'F</p>
     <p>Tommorow: ${forcast.list[12].main.temp}'F</p>

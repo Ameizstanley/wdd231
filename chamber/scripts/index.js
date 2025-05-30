@@ -19,10 +19,8 @@ async function getMembers() {
     
 
         if(member.membershipLevel === 3){
-            members.sort(()=> Math.random() -0.5)
-            .slice(0);
-            displayMembers.innerHTML = `<img src="${member.image}" alt="${member.name}" class="member-img" loading="lazy" height="100" width="150" object-fit="contain">
-            <h3>${member.name}<h3>
+            displayMembers.innerHTML = `<img src="${member.image}" alt="${member.name}" class="member-img" loading="lazy" height="100" width="150" style="object-fit:contain;">
+            <h3>${member.name}</h3>
             <p>Membership level: Silver ${member.membershipLevel}</p>
             <p>Company Address: <span> ${member.address.street}</span> <span>${member.address.city}</span> <span>${member.address.state}</span> <span>${member.address.country}</span></p>
             <p>phone: ${member.phoneNumber}</p>
