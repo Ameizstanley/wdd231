@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ameiz Chamber of Commerce - Supporting local businesses with community information, weather updates, and business spotlights.">
+    <meta name="author" content="Emeribe Stanley Ameiz Chibuike">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏢</text></svg>">
+    <title>Ameiz Chamber of Commerce - Home</title>
+
+    <meta property="og:title" content="Ameiz Chamber of Commerce">
+    <meta property="og:description" content="Supporting local businesses in Owerri, Imo State, Nigeria">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Ameizstanley.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="https://Ameizstanley.github.io/wdd231/chamber/images/og-facebook.jpeg">
+
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+    <!-- <script src="scripts/index.js" defer></script> -->
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/url.js" defer></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-img">
+                <img src="images/logo.png" alt="Ameiz Chamber Logo" loading="lazy">
+                <h1><strong>Ameiz</strong> Chamber of Commerce</h1>
+            </div>
+            <div class="nav-container">
+                <nav class="header-nav">
+                    <ul>
+                        <li class="current-menu"><a href="#home">Home</a></li>
+                        <li><a href="#discover">Discover</a></li>
+                        <li><a href="directory.html">Business Directory</a></li>
+                        <li><a href="#join">Join</a></li>
+                    </ul>
+                </nav>
+                <div class="round" aria-hidden="true"></div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="grid-container">
+
+            <form class="form-section" method="get" action="thankyou.html">
+                <h2>JOIN</h2>
+            <fieldset class="form-area">
+                <legend>Membership Application Form</legend>
+                <label for="first-name">First Name * 
+                    <input type="text" id="firstName" title="Enter your first name" autocomplete="given-name" 
+                    required></label>
+                <label for="last-name">Last Name *
+                    <input type="text" id="lastName" title="Enter your last name" autocomplete="family-name" 
+                    required></label>
+                </label>
+                <label for="orgTitle"> organization title *
+                    <input type="text" id="orgTitle" title="Enter your organization title" autocomplete="organization-title" pattern="[A-Za-z\s]{7,} " minlength="7" required>
+
+                </label>
+                <label for="email-address">Email Address *
+                    <input type="text" id="emailAddress" title="Enter your email address" autocomplete="email" placeholder="johnleo@gmai.com" required>
+                </label>
+                <label for="phone-number">Phone Number *
+                    <input type="text" id="phoneNumber" title="Enter your phone number" autocomplete="tel" required>
+
+                </label>
+                <label for="buisness-name">Buisness/Organization Name *
+                    <input type="text" id="buisnessName" title="Enter your business or organization name" autocomplete="organization" required>
+                </label>
+                <label for="membership-level">Membership Level *
+                    <select name="membershiplevel" id="membershiplevel" title="select your desired membership level">
+                        <option value="">Select a membership level</option>
+                        <option value="np">NP Membership (Non profit - No Fees)</option>
+                        <option value="bronze">&#129351; Bronze Membership</option>
+                        <option value="sliver">&#129352; Silver Membership</option>
+                        <option value="gold">&#129353; Gold Membership</option>
+                    </select>
+                </label>
+                <label for="description">Buisness/Organizations description 
+                    <textarea name="description" id="description" title="enter a breif description of your buisness/organization"></textarea>               
+                </label>
+
+                <input type="hidden" id="timestamp" name="timestamp">
+
+            </fieldset>
+
+            <input type="submit" value="apply for membership" class="submit-btn">
+        </form>
+        <section class="membership-card">
+            <h3>Membership Level</h3>
+            <div class="np">
+                <h4>NON Profitable Membership</h4>
+                <p>for non-profitable organization</p>
+                <button id="open-button1">Learn More</button>
+            </div>
+            <div class="bronze">
+                <h4>Bronze Membership</h4>
+                <p>Essentiall benefits package</p>
+                <button id="open-button2">Learn More</button>
+            </div>
+            <div class="silver">
+                <h4>Silver Membership</h4>
+                <p>Enhanced benefits and features</p>
+                <button id="open-button3">Learn More</button>
+            </div>
+            <div class="gold">
+                <h4>Gold Membership</h4>
+                <p>premium benefits and exclusive access</p>
+                <button id="open-button4">learn More</button>
+            </div>
+        </section>
+
+
+        </section>
+
+        <dialog id="dialog-box">
+            <div id="dialog-content" class="modal-content">
+
+            </div>
+            <button id="close-button" class="close-button"> close//</button>
+
+        </dialog>
+        
+        
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h5>Contact Information</h5>
+                <p>27 Old Okigwe Road<br>
+                   Owerri, Imo State<br>
+                   South-East, Nigeria</p>
+                <p><i class="bi bi-envelope"></i> stanleyameiz@gmail.com</p>
+                <p><i class="bi bi-telephone"></i> +234 805 058 2552</p>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Follow Us</h5>
+                <ul class="socials">
+                    <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>About</h5>
+                <p>WDD Class Project<br>
+                   Emeribe Stanley Ameiz</p>
+                <p>&copy;<span id="copyright-year">2024</span> Ameiz Chamber of Commerce</p>
+                <p>Last Modified: <span id="lastModified"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
+
+
+

@@ -375,7 +375,7 @@ footer {
     transform: scale(1.2);
 }
 
-/* ===== UTILITY CLASSES =====
+/* ===== UTILITY CLASSES ===== */
 .loading {
     text-align: center;
     padding: 2rem;
@@ -392,9 +392,11 @@ footer {
     border-top-color: var(--primary-color);
     animation: spin 1s ease-in-out infinite;
     margin-left: 0.5rem;
-} */
+}
 
-
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
 
 .error {
     background-color: #fee;
