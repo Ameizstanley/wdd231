@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "name": "Nollywood Film City",
+      "category": "Entertainment",
+      "address": "Film Village, Kuje Area Council, FCT Abuja, Nigeria",
+      "description": "Nigeria's premier film production hub and the heart of Nollywood, the world's second-largest film industry by volume. This expansive facility serves as a central location for movie production, featuring state-of-the-art studios, equipment rental services, and post-production facilities. Nollywood produces over 2,500 films annually, making it a significant cultural and economic force across Africa and the global diaspora.",
+      "imageUrl": "images/hollywood.webp",
+      "alt": "Nollywood Film City production studios and facilities",
+      "established": "2007",
+      "visitor_info": {
+        "open_to_public": true,
+        "tour_availability": "By appointment",
+        "best_time_to_visit": "Year-round"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Afrobeats Music Hub Lagos",
+      "category": "Music & Culture",
+      "address": "Victoria Island, Lagos, Nigeria",
+      "description": "The epicenter of Nigeria's global Afrobeats phenomenon, centered in Lagos's vibrant Victoria Island district. This area houses major record labels, studios, and venues where international stars like Burna Boy, Wizkid, and Davido create music that influences global culture. The district features numerous music studios, event centers, and entertainment complexes that serve as the creative heartbeat of African contemporary music.",
+      "imageUrl": "images/afrobeat.webp",
+      "alt": "Lagos music studios and Afrobeats cultural district",
+      "established": "2000s",
+      "visitor_info": {
+        "open_to_public": "Venues vary",
+        "tour_availability": "Concert venues and some studios offer tours",
+        "best_time_to_visit": "December-February (peak concert season)"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Lagos Island Central Business District",
+      "category": "Urban Landmark",
+      "address": "Lagos Island, Lagos State, Nigeria",
+      "description": "The bustling commercial heart of West Africa's largest city, Lagos Island represents the economic powerhouse of Nigeria. Home to over 15 million people in the greater metropolitan area, this district features towering skyscrapers, major financial institutions, and the famous Balogun Market. As one of the fastest-growing megacities in the world, Lagos Island showcases the dynamic blend of traditional African commerce and modern urban development.",
+      "imageUrl": "images/lagos-buisness.webp",
+      "alt": "Lagos Island business district skyline and urban landscape",
+      "established": "15th Century (modern development: 1960s-present)",
+      "visitor_info": {
+        "open_to_public": true,
+        "tour_availability": "City tours available",
+        "best_time_to_visit": "November-March (dry season)"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Aso Rock Presidential Complex",
+      "category": "Government & Landmarks",
+      "address": "Aso Rock, Three Arms Zone, Abuja, FCT, Nigeria",
+      "description": "Nigeria's seat of power, built around the iconic 400-meter high Aso Rock monolith that gives Abuja its distinctive skyline. This massive igneous rock formation houses the Presidential Villa, National Assembly, and Supreme Court. The rock, formed over 500 million years ago, serves as both a natural landmark and symbol of Nigeria's federal government, visible from across the planned capital city.",
+      "imageUrl": "images/aso-rock.webp",
+      "alt": "Aso Rock monolith and Presidential Complex in Abuja",
+      "established": "1991 (as government seat)",
+      "visitor_info": {
+        "open_to_public": "Limited access - external viewing only",
+        "tour_availability": "Official government tours by special arrangement",
+        "best_time_to_visit": "November-February (clear visibility)"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Niger Delta Oil Museum",
+      "category": "Industry & Heritage",
+      "address": "Oloibiri, Ogbia Local Government Area, Bayelsa State, Nigeria",
+      "description": "Located at Oloibiri, the site where commercial oil was first discovered in Nigeria in 1956, this museum commemorates the petroleum industry that transformed the nation's economy. The Niger Delta region produces over 2 million barrels of oil daily, making Nigeria Africa's largest oil producer. The museum showcases the history, technology, and impact of oil exploration while addressing environmental and social challenges in the region.",
+      "imageUrl": "images/niger-museum.webp",
+      "alt": "Niger Delta Oil Museum and historical oil drilling equipment",
+      "established": "2006",
+      "visitor_info": {
+        "open_to_public": true,
+        "tour_availability": "Guided tours available",
+        "best_time_to_visit": "November-March (dry season for easier access)"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Yankari National Park",
+      "category": "Wildlife & Nature",
+      "address": "Yankari National Park, Alkaleri, Bauchi State, Nigeria",
+      "description": "Nigeria's premier wildlife sanctuary spanning 2,244 square kilometers of Sudan savanna. Home to one of West Africa's largest elephant populations, plus lions, leopards, hippos, and over 350 bird species. The park features the famous Wikki Warm Springs, naturally heated to 31°C year-round, and ancient rock paintings dating back thousands of years. Established in 1956, it remains Nigeria's most popular eco-tourism destination.",
+      "imageUrl": "images/yankari.webp",
+      "alt": "Yankari National Park elephants and savanna landscape",
+      "established": "1956",
+      "visitor_info": {
+        "open_to_public": true,
+        "tour_availability": "Game drives and guided nature walks",
+        "best_time_to_visit": "November-April (dry season for wildlife viewing)"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Benin City National Museum",
+      "category": "Art & History",
+      "address": "Ring Road, Benin City, Edo State, Nigeria",
+      "description": "Home to one of the world's finest collections of African art, including the famous Benin Bronzes - intricate brass plaques and sculptures created by the guild system of the historic Kingdom of Benin from the 13th-19th centuries. These masterpieces, many looted during the 1897 British expedition, represent pinnacle achievements in African metallurgy and artistic expression. The museum showcases the sophisticated court culture and artistic traditions of one of Africa's most advanced historical kingdoms.",
+      "imageUrl": "images/benin-city-national-museum.webp",
+      "alt": "Ancient Benin Bronzes displayed in museum setting",
+      "established": "1960",
+      "visitor_info": {
+        "open_to_public": true,
+        "tour_availability": "Daily guided tours",
+        "best_time_to_visit": "Year-round (indoor exhibition)"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Jollof Rice Cultural Center",
+      "category": "Cuisine & Culture",
+      "address": "National Theatre Complex, Iganmu, Lagos, Nigeria",
+      "description": "A cultural center dedicated to Nigeria's most beloved dish and culinary heritage. Jollof rice, with its distinctive tomato-based preparation and aromatic spices, represents the heart of Nigerian cuisine and is central to celebrations across the country. The center offers cooking classes, cultural exhibitions about Nigerian food traditions, and hosts the annual 'Jollof Festival' celebrating West African culinary competition. Features traditional cooking demonstrations and tastings of regional variations.",
+      "imageUrl": "images/jellof-rice.webp",
+      "alt": "Traditional Nigerian Jollof rice preparation and cultural cooking demonstration",
+      "established": "2018",
+      "visitor_info": {
+        "open_to_public": true,
+        "tour_availability": "Cooking classes and cultural tours",
+        "best_time_to_visit": "Year-round, special events during cultural festivals"
+      }
+    }
+]

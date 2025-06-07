@@ -1,0 +1,62 @@
+@media (max-width: 640px) and (min-width: 320px) {
+    .item-card{
+        border:3px ;
+        margin: 20px;
+        background-color:aliceblue;
+        border-radius: 20px;
+        overflow: hidden;
+        display: grid;
+        grid-template-areas:
+            "name"
+            "image"
+            "location"
+            "description";
+    }
+
+     .item-image {
+        grid-area: image;
+    }
+
+    h2{
+        grid-area: name;
+    }
+
+
+    .item-card h2{
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .item-image img{
+        width: 412px;
+        height: 200px;
+        object-fit:cover;
+        
+    }
+
+    .item-address{
+        padding: 20px;
+        grid-area: location;
+    }
+
+    .item-description{
+        padding: 20px;
+        grid-area: description;
+    }
+
+    
+
+    .item-button{
+        width: 300px;
+        height: 50px;
+        border-radius: 20px;
+        margin-bottom: 25px;
+        font-size: large;
+        font-weight: 800;
+        background-color: var(--primary-color);
+        color: white;
+        text-align: center;
+
+    }
+   
+}

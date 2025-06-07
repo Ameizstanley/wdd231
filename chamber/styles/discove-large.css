@@ -1,0 +1,17 @@
+
+.item-description{
+    font-size:small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-address{
+    font-size:medium;
+    font-weight: 600;
+}
+
+
+
+/* .item-card{
+    display: grid;
+    grid-template-columns: 0fr 1fr 2fr;
+} */
