@@ -1,31 +1,53 @@
 @media(max-width: 1024px) and (min-width: 641px) {
     .item-card {
-        border: 3px solid;
+        border: 0px solid;
         margin: 20px;
         background-color: aliceblue;
         border-radius: 20px;
         overflow: hidden;
+        text-align: center;
+        /* height: 400px; */
+        
+    }
+
+    .item-details{
+        margin-bottom: 0px;
+        padding-bottom: 0%;
+        text-align: center;
         display: grid;
         grid-template-areas:
-            "image name"
+            /* "image name" */
             "image location"
-            "image description";
+            "image description"
+            "name description"
+            "button button";
+            
     }
 
     .item-image {
         grid-area: image;
+        height: fit-content;
+        width: fit-content;
     }
 
 
 
     h2 {
         padding-top: 10px;
+        margin-bottom: 0px;
         text-align: center;
         grid-area: name;
     }
 
     .item-description {
         padding: 20px;
+        margin-top: -40px;
+        font-size: small;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+        white-space: normal;
+        max-height: 50px;
+
         grid-area: description;
     }
 
@@ -36,18 +58,22 @@
     }
 
     .item-button {
-        width: 300px;
+        grid-area: button;
+        width: 500px;
         height: 50px;
         border-radius: 20px;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         font-size: large;
         font-weight: 800;
         background-color: var(--primary-color);
         color: white;
+        
+        
+        
     }
 
     .item-image img{
-        width: 412px;
+        width: 300px;
         height: 200px;
         object-fit:cover;
     }

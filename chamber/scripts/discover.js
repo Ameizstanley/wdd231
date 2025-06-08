@@ -21,13 +21,17 @@ async function fetchItems() {
             const itemCard = document.createElement('div');
             itemCard.classList.add("item-card");
             itemCard.innerHTML = `
-            <h2> Title ${item.name}</h2>
+            <div class="item-details">
+            <h2>${item.name}</h2>
             <figure class="item-image"> <img src=${item.imageUrl} alt=${item.alt} loading="lazy"> </figure>
             
             <address class="item-address"> Location: ${item.address} </address>
             <p class="item-description">  ${item.description}</p>
             
+
             <button class="item-button"> Learn More </button>
+            </div>
+            
             `;
 
 

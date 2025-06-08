@@ -1,17 +1,56 @@
+@media (min-width: 1025px) {
 
-.item-description{
-    font-size:small;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.item-address{
-    font-size:medium;
-    font-weight: 600;
-}
-
-
-
-/* .item-card{
+    .item-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  /* .item-details {
     display: grid;
-    grid-template-columns: 0fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;                     
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .item-image {
+    grid-column: 1 / 2;
+    align-self: center;
+    justify-self: center;
+  }
+  
+  .item-description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+  max-width: 100%;
+}
+
+.item-address {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.item-button {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  background-color: var(--primary-color, #0056b3);
+  color: white;
+  margin-top: 1.5rem;
+  align-self: flex-start;
+}
+
+.item-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
 } */
+}

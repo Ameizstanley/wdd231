@@ -5,12 +5,20 @@
         background-color:aliceblue;
         border-radius: 20px;
         overflow: hidden;
+        text-align: center;
+    }
+
+    .item-details{
+        text-align: center;
         display: grid;
         grid-template-areas:
             "name"
             "image"
             "location"
-            "description";
+            "description"
+            "button";
+    
+        
     }
 
      .item-image {
@@ -22,9 +30,9 @@
     }
 
 
-    .item-card h2{
+    .item-details h2{
         padding-top: 10px;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .item-image img{
@@ -47,6 +55,7 @@
     
 
     .item-button{
+        grid-area: button;
         width: 300px;
         height: 50px;
         border-radius: 20px;
@@ -55,7 +64,7 @@
         font-weight: 800;
         background-color: var(--primary-color);
         color: white;
-        text-align: center;
+        
 
     }
    
