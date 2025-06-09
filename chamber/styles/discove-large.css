@@ -10,7 +10,7 @@
     .item-section{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 2rem; /* Adds space between columns */
+        gap: 2rem; 
         padding: 2rem;
     }
 
@@ -18,21 +18,39 @@
         background-color: aliceblue;
         border-radius: 12px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        padding: 1.5rem;
+        /* padding: 1.5rem; */
         font-size: 1.1rem;
 
     }
 
+     .item-details{
+        
+        display: grid;
+        grid-template-areas:
+            /* "image name" */
+            "name location"
+            "image description"
+            "image description"
+            "button button";
+    }
+
     
-    .item-image {
+    /* .item-image {
+      grid-area: image;
         display: flex;
         align-items: center;
         justify-content: center;
+    } */
+
+    .item-image {
+        grid-area: image;
+        height: fit-content;
+        width: fit-content;
     }
 
     .item-image img {
-        width: 350px;
-        height: 230px;
+        width: 300px;
+        height: 200px;
         object-fit: cover;
         border-radius: 12px;
         box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -48,26 +66,57 @@
 
     
 
-    h2 {
+    /* h2 {
+      grid-area: name;
 
-        font-size: 2.2rem;
-        margin-bottom: 0.5rem;
-        text-align: left;
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
+      text-align: left;
+    } */
+
+    h2 {
+        padding-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+        grid-area: name;
     }
 
     .item-address {
-        font-size: 1.1rem;
-        padding: 0.5rem 0;
+        padding: 20px;
+        grid-area: location;
+
     }
 
-    .item-description {
+
+
+    /* .item-address {
+      grid-area: location;
+      font-size: 1.1rem;
+      padding: 0.5rem 0;
+    } */
+
+    /* .item-description {
   
         font-size: 1rem;
         padding: 1rem 0;
         color: #333;
+        grid-area: description;
+    } */
+
+    .item-description {
+        padding: 20px;
+        margin-top: -40px;
+        font-size:x-small;
+        word-break: break-word;
+        overflow-wrap: anywhere;
+        white-space: normal;
+        max-height: 50px;
+
+        grid-area: description;
     }
 
-    .item-button {
+
+    /* .item-button {
         
         width: 60%;
         min-width: 200px;
@@ -81,7 +130,23 @@
         display: block;
         border: none;
         cursor: pointer;
+        grid-area: button;
       
+    } */
+
+    .item-button {
+        grid-area: button;
+        width: 60%;
+        height: 50px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        font-size: large;
+        font-weight: 800;
+        background-color: var(--primary-color);
+        color: white;
+        
+        
+        
     }
 
   }
