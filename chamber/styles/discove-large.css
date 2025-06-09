@@ -3,54 +3,77 @@
     .item-section{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        gap: 2rem; /* Adds space between columns */
+        padding: 2rem;
     }
-  /* .item-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    gap: 2rem;                     
-    align-items: start;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+
+    .item-section > * {
+        background-color: aliceblue;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        padding: 1.5rem;
+        font-size: 1.1rem;
+
+    }
+
+    
+    .item-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item-image img {
+        width: 350px;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+         transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+     .item-image img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
   }
-  .item-image {
-    grid-column: 1 / 2;
-    align-self: center;
-    justify-self: center;
-  }
+
+    }
+
+    h2 {
+
+        font-size: 2.2rem;
+        margin-bottom: 0.5rem;
+        text-align: left;
+    }
+
+    .item-address {
+        font-size: 1.1rem;
+        padding: 0.5rem 0;
+    }
+
+    .item-description {
   
-  .item-description {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  word-break: break-word;
-  overflow-wrap: anywhere;
-  white-space: normal;
-  max-width: 100%;
-}
+        font-size: 1rem;
+        padding: 1rem 0;
+        color: #333;
+    }
 
-.item-address {
-  font-size: 1.2rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
+    .item-button {
+        
+        width: 60%;
+        min-width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 1.2rem;
+        font-weight: 800;
+        background-color: var(--primary-color, #0077cc);
+        color: white;
+        margin: 1rem auto 0 auto;
+        display: block;
+        border: none;
+        cursor: pointer;
+      
+    }
 
-.item-button {
-  width: 250px;
-  height: 50px;
-  border-radius: 20px;
-  font-size: 1.1rem;
-  font-weight: 800;
-  background-color: var(--primary-color, #0056b3);
-  color: white;
-  margin-top: 1.5rem;
-  align-self: flex-start;
-}
-
-.item-image img {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 12px;
-} */
-}
+  }
