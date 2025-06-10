@@ -1,0 +1,88 @@
+/* Color variables */
+:root {
+  --primary: #1B365D;
+  --secondary: #F5F3F0;
+  --accent: #D4AF37;
+  --heading-font: Georgia, serif;
+  --body-font: 'Open Sans', Arial, sans-serif;
+  --mono-font: 'Roboto Mono', monospace;
+  --decorative-font: 'Dancing Script', cursive;
+}
+
+/* General styles */
+body {
+  background: var(--secondary);
+  color: var(--primary);
+  font-family: var(--body-font);
+  margin: 0;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.2rem;
+  border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+h4 {
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+
+h5 {
+  font-size: 1rem;
+  font-family: var(--mono-font);
+  color: var(--primary);
+}
+
+h6 {
+  font-size: 0.95rem;
+  font-family: var(--decorative-font);
+  color: var(--accent);
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  margin: 1.5em 0;
+}
+
+/* Accent for important text */
+strong, b {
+  color: var(--accent);
+}
+
+/* Responsive layout */
+@media (min-width: 700px) {
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+}
