@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#1B365D;      /* Primary color for headers, navigation, and main text */
+    --secondary-color: #F5F1E6;    /* Secondary color for backgrounds and content areas*/
+    --accent-color:#D4AF37;        /* Accent color for buttons, highlights, and prices*/
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --border-radius: 30px;
+    --transition: all 0.3s ease;
+    --margin: 3rem;
+}
+
+.home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    gap: 1rem;
+}
+
+.logo-container,
+.nav-container {
+    margin: var(--margin);
+}
+.logo-container{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+.logo-container p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight:800;
+    padding: 1rem;
+    
+}
+
+.nav-list li {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+.nav-list li:hover{
+    background-color: var(--accent-color);
+}
+
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+
+.home-header{
+    border-bottom: 20px solid;
+    border-color: var(--accent-color);
+}
+
+.hero-section{
+    height: 80vh;
+    margin: var(--margin);
+    background-image: url('https://media.istockphoto.com/id/1585970527/photo/mother-and-daughter-shopping-school-supplies-in-a-store.jpg?s=612x612&w=0&k=20&c=vSOZ-2i6UdLUMRsZJg0a5R7tjU0QiFEPOJhl5646O-E=');
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    border-radius: var(--border-radius);
+    align-content: center;
+    margin-top: 0%;
+    
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px 12px rgba(27,54,93,0.7);
+    margin-top: 0;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero-section .hero-h1 {
+    display: block;
+    font-size: 2rem;
+    color: var(--accent-color);
+    font-family: var(--decorative-font, cursive);
+    margin-bottom: 2.5rem;
+}
+
+.hero-section p {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 8px rgba(27,54,93,0.4);
+}
+
+.hero-section button {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+.hero-section button:hover {
+    background: var(--primary-color);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.products{
+    text-align: center;
+}
+
+.products h2{
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.products p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--primary-color);
+    
+}
+
+.showcase{
+    gap: 2rem;
+    margin: var(--margin);
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    border-top: 4px solid;
+    border-color: var(--primary-color);
+    padding-top: 30px;
+}
+
+.books,
+.stationaries{
+    box-shadow: var(--shadow);
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--secondary-color);
+}
+
+.products a{
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: var(--accent-color);
+    color: var(--primary-color);
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+
+}
+
+.products a:hover{
+    background: var(--primary-color);
+    color: #fff;
+    transform: scale(3.05);
+}
+
+.showcase h3{
+    padding: 20px;
+    color: var(--primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom:4px solid;
+    padding-bottom: 10px;
+    border-color: var(--accent-color);
+
+}
+
+.about-section{
+    border-radius: var(--border-radius);
+    text-align: center;
+    margin: var(--margin);
+    background-color: var(--secondary-color);
+    box-shadow: var(--shadow);
+}
+
+.about-section h4{
+    margin: 30px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    border-bottom: 3px solid;
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+    
+}
+
+.about-section h5{
+    color: var(--primary-color);
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    padding-top: 0%;
+}
+
+.about-section ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    padding-top: 0%;
+    list-style: none;
+
+}
+
+footer {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 2.5rem 1rem 1rem 1rem;
+    border-top: 6px solid var(--accent-color);
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer h6 {
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    font-family: var(--decorative-font, cursive);
+    letter-spacing: 1px;
+}
+
+footer address,
+footer span {
+    font-style: normal;
+    color: #f5f1e6;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+footer span {
+    font-size: 1rem;
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    margin: 0.2rem 0;
+}
+
+
+
+
+
+
