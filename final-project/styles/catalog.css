@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#1B365D;      /* Primary color for headers, navigation, and main text */
+    --secondary-color: #F5F1E6;    /* Secondary color for backgrounds and content areas*/
+    --accent-color:#D4AF37;        /* Accent color for buttons, highlights, and prices*/
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --border-radius: 30px;
+    --transition: all 0.3s ease;
+    --margin: 3rem;
+}
+
+.home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    gap: 1rem;
+}
+
+.logo-container,
+.nav-container {
+    margin: var(--margin);
+}
+.logo-container{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+.logo-container p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight:800;
+    padding: 1rem;
+    
+}
+
+.nav-list li {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+.nav-list li:hover{
+    background-color: var(--accent-color);
+}
+
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+.display-catalog{
+    text-align: center;
+}
+
+.display-catalog h1{
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin: 1rem 0;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.display-catalog > p{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+
+.books button{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    margin: 10px;
+
+}
+
+.books p{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.stationeries{
+    color: var(--primary-color);
+    margin: 0rem 0;
+    font-weight: 500;
+}
+
+.stationeries button{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    margin: 10px;
+
+}
+
+
+.catalog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: var(--margin);
+    /* padding: 20px; */
+    
+}
+
+.display-catalog{
+    height: auto;
+    object-fit: contain;
+ 
+}
+
+.books{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:azure;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    gap: 20px;
+    box-shadow: var(--shadow);
+}
+
+.stationeries{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 50px;
+    background-color: azure;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    gap: 20px;
+    box-shadow: var(--shadow);
+}
+
+/* .dialog-content{
+    margin: 5% auto;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    transform: scale(0.7);
+    transition: all 0.9s ease;
+    border: 30px solid;
+    border-color: #2980b9;;
+} */
+
+
+
+footer {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 2.5rem 1rem 1rem 1rem;
+    border-top: 6px solid var(--accent-color);
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer h6 {
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    font-family: var(--decorative-font, cursive);
+    letter-spacing: 1px;
+}
+
+footer address,
+footer span {
+    font-style: normal;
+    color: #f5f1e6;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+footer span {
+    font-size: 1rem;
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    margin: 0.2rem 0;
+}
+
+.dialog-box {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background:var(--primary-color);
+    z-index: 1000;
+    border: none;
+    padding: 0;
+    z-index: 2000; 
+    overflow-y: hidden;
+    
+}
+
+/* 
+.dialog-content {
+    background: #fff;
+    color: var(--primary-color, #1B365D);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(27,54,93,0.18), 0 1.5px 6px rgba(0,0,0,0.08);
+    padding: 2rem 2.5rem;
+    max-width: 400px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    animation: dialog-pop 0.3s cubic-bezier(.4,2,.6,1) both;
+    position: relative;
+}
+@keyframes dialog-pop {
+    0% { transform: scale(0.7) translateY(40px); opacity: 0; }
+    100% { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+.dialog-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--accent-color, #D4AF37);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 2.2rem;
+    height: 2.2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+.dialog-close:hover {
+    background: var(--primary-color, #1B365D);
+    color: #fff;
+}
+ */
+
+ .modal-content {
+            /* background-color: white; */
+            margin: 5% auto;
+            padding: 2rem;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 400px;
+            max-height: 80vh;
+            overflow-y: auto;
+            transform: scale(0.7);
+            transition: all 0.9s ease;
+            border: 30px solid;
+            border-color: var(--accent-color);
+            color: white;
+            font-size: 1.5rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .modal.show .modal-content {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+    .close-details{
+            color: #1c0202;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .close-button:hover {
+            color: #e74c3c;
+        }
+
+    ::backdrop {
+      background-color: rgba(6, 6, 6, 0.5);
+    }
