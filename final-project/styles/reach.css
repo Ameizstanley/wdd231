@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#1B365D;      /* Primary color for headers, navigation, and main text */
+    --secondary-color: #F5F1E6;    /* Secondary color for backgrounds and content areas*/
+    --accent-color:#D4AF37;        /* Accent color for buttons, highlights, and prices*/
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --border-radius: 30px;
+    --transition: all 0.3s ease;
+    --margin: 3rem;
+}
+
+.home-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    gap: 1rem;
+}
+
+.logo-container,
+.nav-container {
+    margin: var(--margin);
+}
+.logo-container{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+.logo-container p{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-weight:800;
+    padding: 1rem;
+    
+}
+
+.nav-list li {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+}
+
+.nav-list li:focus{
+    background-color: var(--accent-color);
+}
+
+.nav-list .active a,
+.nav-list li.active {
+    color: #fff;
+    background: var(--primary-color, #1B365D);
+    border-radius: 6px;
+    padding: 0.3em 0.8em;
+    font-weight: bold;
+}
+
+
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.8rem;
+}
+
+.whole-container{
+    gap: 1.5rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    margin: var(--margin);
+    padding: 3rem;
+}
+
+.form-area{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 4rem;
+    border: none;
+    background-color:azure;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+
+}
+
+.location-card{
+   display: flex;
+   flex-direction: column;
+   gap: 3rem;
+
+    
+   
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-color);
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 3px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+.connect{
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--primary-color);
+    margin-top: 2rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin: 1rem;
+    border-bottom: 4px solid;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-color: var(--accent-color);
+
+}
+
+legend{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    text-align: center;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: white;
+    border-left: 20px solid;
+    border-left-color: var(--accent-color);
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: var(--primary-color);
+}
+
+
+
+
+label {
+    display: block;
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit-button {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 2rem;
+
+}
+
+.submit-button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+h3 {
+   font-size: 1.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 700;
+    border-bottom:  solid;
+    border-color: var(--accent-color);
+    padding-bottom: 20px;
+
+} 
+
+h4 {
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.location-card p,
+address{
+    color: var(--primary-color);
+    text-align: center;
+    padding:3px;
+}
+
+.heritage{
+    background-color: azure;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+
+}
+
+.opening{
+    background-color: azure;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services{
+    background-color: azure;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    color: var(--primary-color);
+    transition: var(--transition);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+span{
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 2.5rem 1rem 1rem 1rem;
+    border-top: 6px solid var(--accent-color);
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+footer h6 {
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    font-family: var(--decorative-font, cursive);
+    letter-spacing: 1px;
+}
+
+footer address,
+footer span {
+    font-style: normal;
+    color: #f5f1e6;
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+footer span {
+    font-size: 1rem;
+}
+
+footer a {
+    color: var(--accent-color);
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    color: #e0e0e0;
+    font-size: 0.95rem;
+    margin: 0.2rem 0;
+}
