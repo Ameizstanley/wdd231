@@ -9,6 +9,7 @@
     <title>Ameiz-international Bookshop and stationaries - Catalog</title>
 
     <link rel="stylesheet" href="styles/reach.css">
+    <script src="scripts/reach.js" defer></script>
 
 </head>
 <body>
@@ -35,30 +36,30 @@
         <section class="whole-container">
             <div class="message-card">
                 <h2>Send Us a Message</h2>
-                <form action="thankyou.html" method="get">
+                <form action="form_action.html" method="get">
                     <fieldset class="form-area">
                         <legend>Please fill the form</legend>
                         <label for="fullName"> full Name 
-                            <input type="text" id="fullName" title="enter your full name" autocomplete="given-name">
+                            <input type="text" id="fullName" title="enter your full name" autocomplete="given-name" required>
                         </label>
                         <label for="emailAddress"> Email Address
-                            <input type="email" id="emailAddress" title="enter your email address" autocomplete="email">
+                            <input type="email" id="emailAddress" title="enter your email address" autocomplete="email" required>
                         </label>
                         <label for="subject">Subject of Inquiry
-                            <input type="text" id="subject" title="enter your subject of inquiry" autocomplete="cc-name">
+                            <input type="text" id="subject" title="enter your subject of inquiry" autocomplete="cc-name" required>
                         </label>
                         
                         <label> area of concern
                             <label for="books">book
-                              <input type="radio" name="concern" id="bookConcern" value="book">
+                              <input type="radio" name="concern" id="concern" value="book" required>
                            </label>
                            <label for="stationery">stationery
-                             <input type="radio" name="concern" value="stationery" id="stationeryConcern">
+                             <input type="radio" name="concern" value="stationery" id="concern" required>
                            </label>
                         </label>
 
                         <label for="Message">Your Message
-                            <textarea name="yourMessage" id="yourMessage"></textarea>
+                            <textarea name="yourMessage" id="yourMessage"></textarea required>
                         </label>
 
                     </fieldset>
