@@ -85,6 +85,9 @@
     margin: 1rem 0;
     font-weight: 700;
     text-transform: uppercase;
+    border-bottom: 3px solid;
+    border-color: var(--accent-color);
+    margin: 50px;
 }
 
 .display-catalog > p{
@@ -149,6 +152,7 @@
 .display-catalog{
     height: auto;
     object-fit: contain;
+
  
 }
 
@@ -384,5 +388,18 @@ footer p {
     display: grid;
     grid-template-columns: 1fr;
     }
+    
+}
+
+@media (max-width:640px) {
+    .catalog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    margin: 0px;
+    width: fit-content;
+    /* padding: 20px; */
+    
+}
     
 }

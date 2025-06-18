@@ -48,7 +48,7 @@
 
 .nav-list li {
     padding: 1rem;
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color);
     border-radius: var(--border-radius);
 }
 
@@ -69,8 +69,8 @@
     align-self: center;
 }
 
-.nav-list li a.active{
-    background-color: var(--accent-color);
+.nav-list li .active{
+    background-color: var(--secondary-color);
 
 }
 
