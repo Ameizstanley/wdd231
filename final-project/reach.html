@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="styles/reach.css">
     <script src="scripts/reach.js" defer></script>
+    <script src="scripts/index.js" defer></script>
 
 </head>
 <body>
@@ -18,11 +19,12 @@
             <p>📖 Ameiz International</p>
         </div>
         <div class="nav-container">
-            <nav>
+            <button class="nav-btn" id="menuButton" aria-label="Toggle navigation">&#9776;</button>
+            <nav id="mainNav">
                 <ul class="nav-list">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="catalog.html">Catalog</a></li>
-                    <li><a href="reach.html">Reach Us</a></li>
+                    <li><a href="reach.html" class="active">Reach Us</a></li>
                 </ul>
                 
             </nav>
