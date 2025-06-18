@@ -317,6 +317,14 @@ span{
         text-align: center;
     }
 
+    .whole-container{
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: var(--margin);
+    padding: 3rem;
+}
+
     
 
     
@@ -412,3 +420,4 @@ footer p {
     font-size: 0.95rem;
     margin: 0.2rem 0;
 }
+
