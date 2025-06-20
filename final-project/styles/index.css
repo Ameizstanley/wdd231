@@ -18,6 +18,13 @@ body {
     font-family: 'Roboto';
 }
 
+.footer-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
 .home-header{
     display: flex;
     flex-direction: row;
